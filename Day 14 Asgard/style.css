@@ -1,0 +1,613 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-weight: 100;
+    font-family: 'Anton', sans-serif;
+    font-size: 17px;
+}
+header.container{
+    width: 100%;
+    display: grid;
+}
+.grid-container-1 {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: white;
+    color: black;
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+}
+.logo{
+    width: 40%;
+    margin: auto;
+}
+.logo .div-logo{
+    width: 75%;
+}
+.logo .div-logo img{
+    width: 100%;
+}
+.logo h2{
+    font-family: 'Italianno', cursive;
+    font-size: 50px;
+}
+.logo a{
+    text-decoration: none;
+    color: black;
+}
+.menu{
+    padding: 40px 0px;
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+    margin-left: 42px;
+}
+.ri-whatsapp-fill{
+    color: springgreen;
+    font-size: 28px;
+}
+.div-backimg{
+    background-image: url(./pics/h.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 60px;
+    padding-top: 160px;
+}
+.grid-container-2 {
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 80%;
+    margin: auto;
+    padding: 155px 0px;
+}
+.divcol-1{
+width: 80%;
+margin: auto;
+background-color: hsl(22.5deg 15.38% 10.2%);
+color: white;
+padding: 30px 35px;
+border-radius: 7px;
+opacity: 0.87;
+}
+.divcol-2{
+    width: 97%;
+    margin: auto;
+    background-color:hsl(22.5deg 15.38% 10.2%);
+color: white;
+padding: 30px 35px;
+border-radius: 7px;
+opacity: 0.87;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.anchor{
+    padding: 15px 0px;
+    display: grid;
+    grid-template-columns: auto auto auto  auto auto auto auto;
+    column-gap: 12px;
+    width: 10%;
+}
+.anchor .anc{
+    background-color: hsl(45.26deg 94.14% 47.7%) ;
+   color: white;
+}
+.anc{
+    text-decoration: none;
+    color: black;
+    margin-left: 30px;
+    padding: 12px 30px;
+    border-radius: 5px;
+    background-color: white ; 
+}
+.anc:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+.lea{
+ margin-right: 20px;
+ text-decoration: none;
+ color: black;
+ /* margin-left: 30px; */
+ padding: 12px 30px;
+ border-radius: 5px;
+ background-color: white ; 
+}
+.lea:hover{
+    background-color:hsl(45.26deg 94.14% 47.7%);
+    color: white;
+    cursor: pointer;
+}
+.ancc:hover{
+    background-color:hsl(45.26deg 94.14% 47.7%);
+    color: white;
+    cursor: pointer;
+}
+.anccc:hover{
+    background-color:hsl(45.26deg 94.14% 47.7%);
+    color: white;
+    cursor: pointer;
+}
+.anchorr .ancccc:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+.anchorr .ancccc{
+    background-color: hsl(45.26deg 94.14% 47.7%) ;
+    color: white;
+    padding-block: 20px;
+}
+.anchorr{
+    width: 96%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 12px;
+}
+.anchorr a{
+    text-decoration: none;
+    color: black;
+    margin-left: 30px;
+    padding: 20px 12px;
+    border-radius: 5px;
+    background-color: white ;
+    }
+    .ancc{
+        width: 100%;
+    }
+    .anccc{
+        width: 100%;
+    }
+    .ancccc{
+        width: 100%;
+    }
+    .main-container{
+        background-color:  hsl(0deg 0% 89.8%);
+    }
+    .row-1 {
+        width: 80%;
+        margin: auto;
+        padding: 60px 0px;
+        display: grid;
+        row-gap: 50px;
+    }
+    .divtext{
+        text-align-last: center;
+    }
+    .divtext h2{
+        color: hsl(212.14deg 100% 10.98%);
+    }
+    .divtext p{
+        padding: 15px 0px;
+        opacity: 0.68;
+    }
+    .grid-container-3 {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        width: 100%;
+    }
+    .card-1 {
+        width: 95%;
+        margin: auto;
+        border-radius: 7px 7px 7px 7px;
+        background-color: white;
+        color: black;
+        box-shadow: 0px 13px 19px 0px rgb(232 228 228 / 40%);
+    }
+    .card-1 .divimg1{
+        background-image: url(./pics/DUBAI-View.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        border-radius: 7px 7px 0px 0px;
+        width: 100%;
+        padding: 18px 10px;
+        
+    }
+.divimg1:hover {
+opacity: 0.5;
+cursor: pointer;
+    }
+    .divimg2:hover {
+        opacity: 0.5;
+        cursor: pointer;
+            }
+    .divimg3:hover {
+        opacity: 0.5;
+        cursor: pointer;
+            }
+    .divimg4:hover {
+        opacity: 0.5;
+        cursor: pointer;
+            } 
+    .divimg5:hover {
+        opacity: 0.5;
+        cursor: pointer;
+            }
+    .divimg6:hover {
+        opacity: 0.5;
+        cursor: pointer;
+            }
+    .card-1 .divimg1 img{
+        width: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 7px;
+    }
+    .card-1 .divimg2{
+        background-image: url(./pics/List-of-Top-Developers-in-Dubai-_-Cover-1-15-11-22.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        border-radius: 7px 7px 0px 0px;
+        padding: 18px 10px;
+    }
+    .card-1 .divimg2 img{
+        width: 100%;
+        background-color: white;
+        color: black;
+    }
+    .card-1 .divimg3{
+        background-image: url(./pics/top-locations-in-uae-for-real-estate-investment.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        border-radius: 7px 7px 0px 0px;
+        width: 100%;
+        padding: 18px 10px;
+    }
+    .card-1 .divimg3 img{
+        width: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 7px;
+    }
+    .card-1 .divimg4{
+        background-image: url(./pics/home.webp);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        border-radius: 7px 7px 0px 0px;
+        width: 100%;
+        padding: 18px 10px;
+    }
+    .card-1 .divimg4 img{
+        width: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 7px;
+    }
+    .card-1 .divimg5{
+        background-image: url(./pics/uae-taxes-en-235352983-1.jpeg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        border-radius: 7px 7px 0px 0px;
+        width: 100%;
+        padding: 18px 10px;
+    }
+    .card-1 .divimg5 img{
+        width: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 7px;
+    }
+    .card-1 .divimg6{
+        background-image: url(./pics/h.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        border-radius: 7px 7px 0px 0px;
+        padding: 18px 10px;
+    }
+    .card-1 .divimg6 img{
+        width: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 7px;
+    }
+    .card-1 h3{
+        padding: 30px 15px;
+    }
+    .card-1 p{
+        padding: 10px 15px;
+        opacity: 0.68;
+    }
+    .card-1 i{
+        margin-inline: 9px;
+    }
+    .sale{
+        background-color:  hsl(45.26deg 94.14% 47.7%);
+        width: 30%;
+        color: white;
+        border-radius: 5px;
+        padding: 6px 5px;
+        cursor: pointer;
+    }
+    .latest{
+        background-color:  black;
+        width: 40%;
+        color: white;
+        border-radius: 5px;
+        padding: 6px 5px;
+        margin-top: 10px;
+        cursor: pointer;
+    }
+    .aed{
+        background-color: black;
+        width: 55%;
+        margin-left: 135px;
+        color: white;
+        border-radius: 5px;
+        padding: 6px 5px;
+        margin-top: 130px;
+        cursor: pointer;
+    }
+    .grid-container-4 {
+        display: grid;
+        grid-template-columns: auto auto;
+        width: 80%;
+        margin: auto;
+        padding: 90px 0px;
+    }
+    .grid-container-5 {
+        display: grid;
+        grid-template-columns: auto auto;
+        background-color: white;
+        width: 80%;
+        padding: 20px 20px;
+      }
+      .grid-item {
+        background-color: rgba(255, 255, 255, 0.8);
+        width: 20%;
+      }
+      .grid-item .gi-img{
+        width: 100%;
+      }
+      .grid-item .gi-img img{
+        width: 100%;
+      }
+      body{
+        padding: 0;
+        margin: 0;
+        }
+        .card{
+            border: 2px solid white;
+            background-color: white;
+            border-radius: 7px 7px 7px 7px;
+            width: 100%;
+            position: relative;
+            z-index: 1;
+        }
+        .g1{
+            border-radius: 7px;
+            gap: 10px;
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            align-items: center;
+            background-color: white;
+            padding: 20px;
+        }
+        .g1 img{
+            height: 5vmax;
+            border: 1px solid rgba(111, 108, 108, 0.735);
+            width: 100%;
+            border-radius: 7px;
+        }
+        .g1 p{
+            /* width: 90%; */
+            /* width: 1vmax; */
+            font-size: 1vmax;
+        }
+        .main{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            /* gap: 10px; */
+            width: 61vmax;
+        }
+        span{
+            opacity: 0.68;
+        }
+        .bgimg{
+            background-image: url(./pics/bhurj\ khalifa.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            border-radius: 7px 7px 7px 7px;
+            padding: 40px 78px;
+            margin-right: 70px;
+            width: 21vmax;
+            position: relative;
+            right: 60px;
+        }
+        .lin{
+            margin-top: 270px;
+        }
+        .lin a{
+            background-color: transparent;
+            border: 1px solid white;
+            color: white;
+            border-radius: 4px;
+            padding: 8px 10px;
+        }
+        .lin a:hover{
+            background-color: hsl(45.26deg 94.14% 47.7%);
+            cursor: pointer;
+            color:white;
+            border: none;
+        }
+        .background-img{
+            width: 100%;
+            
+            background-image: linear-gradient(to right, hsl(75deg 2.11% 37.25%));
+        }
+        .hbg-img{
+            background: linear-gradient(to  right, #242323b3,#242323b3), url(./pics/hose.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            padding: 50px 50px;
+            width: 100%;
+            background-color: black;
+        }
+        .taxtt{
+            display: grid;
+            grid-template-columns: repeat(2 , 1fr);
+            width: 85%;
+            margin: auto;
+            color: white;
+        }
+        .contant-1{
+            width: 80%;
+            margin: auto;
+            padding: 43px 0px;
+            color: white;
+        }
+        .contant-1 h2{
+            text-align: center;
+            padding: 20px 0px;
+        }
+        .contant-2{
+            display: grid;
+            grid-template-columns:repeat(2,1fr);
+            gap: 30px;
+        }
+        .contant-ch1{
+           background-color: white;
+            padding: 10px 20px;
+            color: black;
+            border-radius: 7px;
+        }
+        .divico i{
+            color: hsl(45.26deg 94.14% 47.7%);
+            font-size: 5vmax;
+        }
+        .ft{
+            background-color:hsl(0deg 0% 6.27%);
+            width: 100%;
+            padding: 20px 174px;
+            display: grid;
+        }
+        .contex{
+            margin: auto;
+            width: 100%;
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+
+        }
+        .content p{
+            padding: 20px 0px;
+        }
+        .content h2{
+            color: hsl(212.14deg 100% 10.98%);
+        }
+        .context1{
+            width: 100%;
+            color: white;
+            display: grid;
+        }
+        .context1 a{
+            color: white;
+        }
+        .context1 h2{
+           padding-top: 85px;
+        }
+        .divlog{
+            width: 65%;
+            position: relative;
+            right: 35px;
+            bottom: 10px;
+        }
+        .divlog img{
+            width: 100%;
+        }
+        .a{
+            padding: 0px 20px;
+        }
+        .a a{
+            color:white;
+        }
+        .aa a{
+            color:white;
+        }
+        .lore{
+            color: white;
+            padding-left: 20px;
+        }
+        .divic{
+            padding-bottom: 125px;
+        }
+        .divic a i{
+            color:white ;
+            margin-inline: 0px;
+        }
+        .lo{
+            position: relative;
+            left: 25px;
+            bottom: 26px;
+        }
+        .loo{
+            position: relative;
+            left: 25px;
+            bottom: 19px;
+        }
+        .input{
+            width: 100%;
+            margin: auto;
+        }
+        .ancinput{
+            background-color: #61616161;
+            color:black;
+        }
+        .btn{
+            background-color: #61616161;
+            color: white;
+            padding: 20px;
+            font-size: 17px;
+            cursor: pointer;
+            border-radius: 5px;
+            border: none;
+            outline: none;
+        }
+        .email{
+            padding: 14px 19px;
+            background-color: transparent;
+            border: none;
+            color: white;
+            width: 73%;
+            outline: none;
+        }
+        .side{
+            background-color: #61616161;
+            color: white;
+            font-size: 38px;
+            padding: 5px 23px;
+            position: relative;
+            top: 8px;
+            border-radius: 5px;
+        }
+        .line{
+            color: white;
+            width: 100%;
+        }
+        .foot{
+            width: 100%;
+            background-color: hsl(0deg 0% 6.27%);
+            padding: 20px 0px;
+            text-align: center;
+        }
+        .foot h3{
+            color: white;
+            padding: 30px 0px;
+        }
